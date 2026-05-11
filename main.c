@@ -78,7 +78,7 @@ void elevMedel(char namn[5][11], float medel[5], float gruppMedel, int maxIndex)
 {
     for (int i = 0; i < 5; i++)
     {
-        if (i != maxIndex && medel[i] < gruppMedel) // Hitta elever under Max medelvärdet
+        if (i != maxIndex && medel[i] < gruppMedel) // Hitta elever under gruppens medelvärdet
         {
             printf("%s\n", namn[i]); // Skriv ut namn
         }
